@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-weight: bold;
+    
+  }
+  
+  .logo img{
+    max-width: 10em;
+    max-height: 10em;
+    margin: 0%;
+    padding: 1rem;
+  }
+  
+  .navbar-links ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    gap: 1em;
+    margin: 1em;
+    font-size: large;
+  }
+  
+  .navbar-links li:hover {
+    background-color: #faf5e4;
+  }
+  
+  .navbar-links ul a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    color: black;
+  }
+  
+  .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  
+  .toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  /* End of NavBar */
+
+  .about-us{
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  }
+
+  .about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-container h1{
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  .about-container p{
+    
+    margin-left: 20em;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+  }
+
+  /* End of About Us Section */
+  
+  .hero-image-container{
+    background-image: url(Photos/Kayak\ Fishing\ 2.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+  }
+  
+  .inner-container h1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    font-weight: bold;
+    font-size: 5em;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  /* End of Hero Image Section */
+  
+  .card-section{
+    height: 100%;
+    background-color: #142d4c;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    padding: 0 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+  }
+  
+  .card{
+    background: #ececec;
+    flex: 1; 
+    padding-bottom: 32px; 
+    border-radius: 5px;
+    height: 30em;
+  }
+
+  .card p{
+    padding: 1em
+  }
+
+  .card-image{
+    height: 50em;
+    margin-bottom: 15em;
+    border-radius: 5px;
+  }
+  .card-1 {
+    background-image: url(Images/Build.jpg);
+    background-size: cover;
+    height: 15em;
+    margin-bottom: 4em;
+  }
+
+  .card-2{
+    background-image: url(Images/Ordering.jpg);
+    background-size: cover;
+    height: 15em;
+    margin-bottom: 4em;
+  }
+  
+  .card-3{
+    background-image: url(Images/Boat-5.jpg);
+    background-size: cover;
+    height: 15em;
+    margin-bottom: 4em;
+  }
+  
+  /* End of Card Section */
+
+  .section-three{
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #faf5e4;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .sect-three-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5em;
+  }
+
+  .sect-three-text{
+    padding-right: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .sect-three-text h1{
+    font-size: 40px;
+  }
+
+  .sect-three-text p{
+    padding-top: 30px;
+    margin-right: 30em;
+  }
+
+  .sect-three-img img{
+    height: 25em;
+    margin-right: 5em;
+  }
+
+  .line{
+    width: 50%;
+    height: 5px;
+    margin-left: 1em;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: red;
+  }
+
+   /* End of Section Three */
+
+  .our-photos-section{
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .row img {
+    height: 18em;
+    width: auto;
+  }
+
+  /* End of Our Photos Section */
+
+  .foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 100%;
+    background-color: #142d4c;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+  }
+
+  .fut h1 p{
+    font-size: 20px;
+  }
+
+  .fut{
+    margin-left: 20px;
+  }
+
+  .fut-two{
+    margin-right: 20px;
+  }
+
+  /* Media Queries */
+  
+  @media (max-width: 600px) { /* Media Query for Mobile Devices */
+    .toggle-button {
+        display: flex;
+        right: 16px; 
+    }
+  
+    .navbar-links {
+       display: none; 
+       width: 70%;
+    }
+  
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+  
+    .navbar-links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+  
+    .navbar-links li{
+        text-align: center;
+    }
+  
+    .navbar-links li a {
+        padding: .5em;
+    }
+  
+    .navbar-links.active {
+        display: flex;
+    }
+
+    /* End of Navbar Section */
+    
+    .image-container {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+  
+    .image-title{
+        font-size: 1em;
+    }
+
+    /* End of Hero Image Section */
+
+    .about-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .about-container h1{
+      
+      font-size: 35px;
+    }
+
+    .about-container p{
+      margin-top: 25px;
+      font-size: 17px;
+      margin-left: 2px;
+    }
+
+    /* End of About Container */
+  
+    .card-section{
+        flex-direction: column;
+        height: unset;
+    }
+    
+    .card{
+        background: #faf5e4;
+        width: 100%;
+    }
+
+    /* End of Card Section */
+
+    .sect-three-container{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .sect-three-container{
+        margin-right: 4em;
+    }
+
+    .sect-three-text h1 {
+        font-size: 30px;
+    }
+
+    .sect-three-text p {
+      padding-top: 10px;
+      padding-bottom: 20px;
+      margin-right: 1em;
+  }
+
+    .sect-three-img img{
+        height: 15em;
+        margin-right: 1em;
+
+    }
+
+    .line{
+      width: 70%;
+      height: 5px;
+      margin-right: 20em;
+      border-radius: 50px;
+      margin-top: 50px;
+      background-color: red;
+    }
+
+    /* End of Section Three */
+
+    .our-photos-section{
+      height: 100%;
+      padding-top: 100px;
+      padding-bottom: 50px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .row{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .row-image img{
+      height: 15em;
+    }
+    
+  }
