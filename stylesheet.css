@@ -74,10 +74,10 @@
 
   .about-us{
     height: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
 
   .about-container{
@@ -96,22 +96,28 @@
 
   .about-container p{
     
-    margin-left: 20em;
+    margin-left: 10em;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .about-us-photo img{
+    height: 20em;
   }
 
   /* End of About Us Section */
   
   .hero-image-container{
-    background-image: url(Photos/Kayak\ Fishing\ 2.jpg);
+    background-image: url(Photos/Kayak\ Image\ 1.jpg);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     background-position: center;
+    background-attachment: fixed;
   }
   
   .inner-container h1{
@@ -134,54 +140,21 @@
     height: 100%;
     background-color: #142d4c;
     display: flex;
-    justify-content: center;
     gap: 16px;
     text-align: center;
     padding: 0 32px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', Arial, sans-serif;
   }
-  
-  .card{
-    background: #ececec;
-    flex: 1; 
-    padding-bottom: 32px; 
-    border-radius: 5px;
+
+  .card img {
     height: 30em;
   }
 
-  .card p{
-    padding: 1em
-  }
 
-  .card-image{
-    height: 50em;
-    margin-bottom: 15em;
-    border-radius: 5px;
-  }
-  .card-1 {
-    background-image: url(Images/Build.jpg);
-    background-size: cover;
-    height: 15em;
-    margin-bottom: 4em;
-  }
-
-  .card-2{
-    background-image: url(Images/Ordering.jpg);
-    background-size: cover;
-    height: 15em;
-    margin-bottom: 4em;
-  }
-  
-  .card-3{
-    background-image: url(Images/Boat-5.jpg);
-    background-size: cover;
-    height: 15em;
-    margin-bottom: 4em;
-  }
   
   /* End of Card Section */
 
@@ -347,15 +320,6 @@
 
     /* End of About Container */
   
-    .card-section{
-        flex-direction: column;
-        height: unset;
-    }
-    
-    .card{
-        background: #faf5e4;
-        width: 100%;
-    }
 
     /* End of Card Section */
 
