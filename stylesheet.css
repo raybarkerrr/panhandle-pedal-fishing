@@ -96,11 +96,11 @@
 
   .about-container p{
     
-    margin-left: 10em;
+    margin-left: 5em;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .about-us-photo img{
@@ -139,9 +139,7 @@
   .card-section{
     height: 100%;
     background-color: #142d4c;
-    display: flex;
     gap: 16px;
-    text-align: center;
     padding: 0 32px;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -150,11 +148,17 @@
     font-family: 'Source Sans Pro', Arial, sans-serif;
   }
 
+  .card {
+    
+  }
+
   .card img {
     height: 30em;
   }
 
-
+  .card-bottom img {
+    height: 30em;
+  }
   
   /* End of Card Section */
 
