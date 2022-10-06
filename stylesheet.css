@@ -148,17 +148,33 @@
     font-family: 'Source Sans Pro', Arial, sans-serif;
   }
 
-  .card {
+
+
+  .card-one{
+    display: flex;
+    align-items: center;
+  }
+
+  .card-two{
+    display: flex;
+    align-items: center;
+  }
+
+  .card-side{
+    color: white;
+    margin-left: 30em;
+  }
     
-  }
 
-  .card img {
+  .card-one img {
     height: 30em;
   }
 
-  .card-bottom img {
+  .card-two img{
     height: 30em;
   }
+
+
   
   /* End of Card Section */
 
