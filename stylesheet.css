@@ -78,6 +78,7 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
+    background-color: #ececec;
   }
 
   .about-container{
@@ -138,41 +139,53 @@
   
   .card-section{
     height: 100%;
-    background-color: #142d4c;
+    background-color: white;
     gap: 16px;
     padding: 0 32px;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', Arial, sans-serif;
   }
 
-
-
-  .card-one{
+  .card-top{
     display: flex;
     align-items: center;
   }
 
-  .card-two{
-    display: flex;
-    align-items: center;
-  }
 
   .card-side{
-    color: white;
-    margin-left: 30em;
+    margin-left: 15em;
+    box-shadow: 0 0 2px 2px;
+    font-size: 20px;
   }
     
-
-  .card-one img {
+  .card-top img {
     height: 30em;
+    width: 505px;
+    height: 520px;
+    object-fit: cover;
+    object-position: 50% 50%;
   }
 
-  .card-two img{
-    height: 30em;
+  .card-bottom{
+    display: flex;
+    align-items: center;
   }
+
+  .card-bottom img{
+    height: 30em;
+    margin-left: 20em;
+    width: 505px;
+    height: 520px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+
+
 
 
   
