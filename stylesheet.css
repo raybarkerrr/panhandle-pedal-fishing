@@ -23,8 +23,8 @@
   }
   
   .logo img{
-    max-width: 10em;
-    max-height: 10em;
+    max-width: 8em;
+    max-height: 8em;
     margin: 0%;
     padding: 1rem;
   }
@@ -292,6 +292,8 @@
   .row img {
     height: 18em;
     width: auto;
+    width: 300px;
+    object-fit: cover;
   }
 
   /* End of Our Photos Section */
