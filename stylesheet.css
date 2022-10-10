@@ -211,7 +211,7 @@
 
   .section-three{
     height: 100%;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-bottom: 40px;
     padding-left: 30px;
     padding-right: 30px;
@@ -225,6 +225,7 @@
   }
 
   .our-goals p{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     margin-left: 300px;
@@ -234,7 +235,7 @@
   }
 
   .required-items h1{
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
     margin-left: 300px;
@@ -244,11 +245,32 @@
   }
 
   .required-items p{
+    padding-top: 10px;
     display: flex;
     justify-content: center;
     margin-left: 300px;
     margin-right: 300px;
     font-size: 25px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+  }
+
+  .suggested-items h1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+  }
+
+  .suggested-items li{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
