@@ -298,6 +298,29 @@
 
   /* End of Our Photos Section */
 
+  .form-section{
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .form-labels p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    margin-top: 2em;
+  }
+
+  .input{
+    
+  }
+
+  /* End of Form Section */
+
   .foot{
     display: flex;
     justify-content: space-between;
@@ -319,6 +342,8 @@
   .fut-two{
     margin-right: 20px;
   }
+
+
 
   /* Media Queries */
   
