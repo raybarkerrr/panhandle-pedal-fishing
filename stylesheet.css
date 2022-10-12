@@ -347,6 +347,12 @@
     height: 30px;
   }
 
+  .input-field-message{
+    border-radius: 7px;
+    width: 200px;
+    height: 150px;
+  }
+
   /* End of Form Section */
 
   .foot{
