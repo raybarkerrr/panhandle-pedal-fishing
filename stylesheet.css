@@ -305,15 +305,7 @@
     justify-content: center;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-    padding-bottom: 30px;
-  }
-
-  .owner-number{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 40px;
-    font-size: 30px;
+    padding-bottom: 50px;
   }
 
   textarea{
