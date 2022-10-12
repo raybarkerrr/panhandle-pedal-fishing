@@ -298,6 +298,24 @@
 
   /* End of Our Photos Section */
 
+  .contact-us{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    padding-bottom: 50px;
+  }
+
+  textarea{
+    resize: none;
+  }
+
+  .form-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+  }
+
   .form-section{
     height: 100%;
     padding-top: 60px;
@@ -305,18 +323,28 @@
     padding-left: 100px;
     padding-right: 100px;
   }
+
+  .form-labels{
+    box-shadow: 0 0 20px 0 #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 25em;
+    margin-left: 25em;
+  }
+
   
   .form-labels p{
     font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-    margin-top: 2em;
+    margin-top: 1.5em;
   }
 
-  .input{
-    
+  .input-field{
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
   }
 
   /* End of Form Section */
