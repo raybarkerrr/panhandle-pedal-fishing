@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style-type: none;
   }
   
   html,
@@ -211,75 +212,71 @@
 
   .section-three{
     height: 100%;
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
-  .our-goals h1{
-    display: flex;
-    justify-content: center;
-    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
-  .our-goals p{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+  .required-items{
+    width: 250px;
   }
 
   .required-items h1{
-    padding-top: 100px;
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    font-size: 26px;
+    margin-bottom: 0.5em;
   }
 
   .required-items p{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
   .required-items a{
+    font-size: 20px;
+  }
+
+  .goals-items-container{
     display: flex;
     justify-content: center;
+  }
+
+  .our-goals{
+    width: 450px;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+
+  .our-goals h1{
+    font-size: 30px;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .our-goals p{
     font-size: 20px;
+  }
+
+  .suggested-items{
+    width: 250px;
   }
 
   .suggested-items h1{
-    padding-top: 100px;
+    font-size: 26px;
+    margin-bottom: 0.5em;
+  }
+
+  .suggested-items p{
+    font-size: 20px;
     display: flex;
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: 40px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
   .suggested-items li{
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
+    margin-top: 0.3em;
   }
-
 
    /* End of Section Three */
 
