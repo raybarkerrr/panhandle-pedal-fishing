@@ -35,7 +35,7 @@
     justify-content: space-around;
     align-items: flex-end;
     list-style: none;
-    gap: 1em;
+    gap: 0.5em;
     margin: 1em;
     font-size: large;
   }
