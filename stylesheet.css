@@ -174,8 +174,9 @@
 
   .card-bottom img{
     height: 30em;
-    width: 250em;
-    margin-left: 15em;
+    width: 500px;
+    object-fit: cover;
+    margin-left: 10em;
   }
 
   .card-side-two{
@@ -296,7 +297,6 @@
 
   .row img {
     height: 18em;
-    width: auto;
     width: 300px;
     object-fit: cover;
   }
