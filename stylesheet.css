@@ -88,9 +88,7 @@
 
   .about-container h1{
     font-size: 50px;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, 'Poppins', 'Work Sans';
     font-weight: bold;
   }
 
@@ -102,7 +100,7 @@
 
   .about-us-photo img{
     height: 20em;
-    width: 400px;
+    width: 350px;
     object-fit: cover;
   }
 
@@ -156,12 +154,12 @@
 
   .card-side{
     margin-left: 15em;
-    font-size: 20px;
+    font-size: 1.3em;
   }
     
   .card-top img {
     height: 30em;
-    width: 505px;
+    width: 30em;
     object-fit: cover;
   }
 
@@ -180,21 +178,21 @@
   }
 
   .card-side-two{
-    font-size: 20px;
+    font-size: 1.3em;
   }
 
   .offshore-title h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 1.5em;
   }
 
   .inshore-title{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 1.5em;
   }
 
   .line{
@@ -444,6 +442,11 @@
 
     /* End of Hero Image Section */
 
+    .about-us{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
     .about-container{
       display: flex;
       justify-content: center;
@@ -451,19 +454,36 @@
       flex-direction: column;
     }
 
-    .about-container h1{
-      
-      font-size: 35px;
-    }
-
     .about-container p{
-      margin-top: 25px;
-      font-size: 17px;
+      margin-top: 1em;
+      font-size: 1rem;
       margin-left: 2px;
     }
 
     /* End of About Container */
-  
+
+    .card-section{
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .card-top img {
+      height: 50%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .card-top{
+      display: inline-block;
+      margin-right: -1em;
+    }
+
+    .card-side{
+      margin-left: -0.7em;
+      font-size: 1rem;
+    }
 
     /* End of Card Section */
 
