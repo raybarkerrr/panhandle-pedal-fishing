@@ -420,15 +420,14 @@
 
   .fishing-2{
     max-width: 100%;
-    min-height: 75vh;
+    min-height: 100vh;
     background-color: #ddd;
   }
 
   .container-2{
-    width: 80%;
+    max-width: 80%;
     display: block;
     margin:auto;
-    padding-top: 100px;
   }
   
   .image-section-2{
@@ -443,7 +442,11 @@
 
   .text-section-2{
     float: right;
-    max-width: 55%;
+    max-width: 100%;
+  }
+
+  .title{
+    font-size: 28px;
   }
 
   .text-section-2 p{
@@ -615,38 +618,50 @@
     margin:auto;
     padding-top:50px;
   }
+
   .content-section{
     float:none;
     width:100%;
     display: block;
     margin:auto;
   }
+
   .image-section{
     float:none;
     width:100%;
-    
   }
+
   .image-section img{
     width: 100%;
     height: auto;
     display: block;
     margin:auto;
   }
+
   .content-section .title{
     text-align: center;
     font-size: 19px;
   }
-  .content-section .content .button{
-    text-align: center;
-  }
-  .content-section .content .button a{
-    padding:9px 30px;
-  }
-  .content-section .social{
-    text-align: center;
-  }
 
   /* laster */
+
+  .container-2{
+    margin:auto;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    float: none;
+    padding-top:50px;
+  }
+
+  .image-section-2{
+    max-width: 100%;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+  }
 
 
 }
