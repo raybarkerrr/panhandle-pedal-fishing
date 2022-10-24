@@ -420,7 +420,7 @@
 
   .fishing-2{
     max-width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: #ddd;
   }
 
@@ -438,11 +438,12 @@
   .image-section-2 img{
     max-width: 100%;
     height: auto;
+    float: left;
   }
 
   .text-section-2{
     float: right;
-    max-width: 100%;
+    max-width: 55%;
   }
 
   .title{
@@ -661,6 +662,10 @@
   .title{
     display: flex;
     justify-content: center;
+  }
+
+  .text-section-2{
+    max-width: 100%;
   }
 
 
