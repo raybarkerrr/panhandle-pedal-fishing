@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+    scroll-behavior: smooth;
   }
   
   html,
@@ -332,13 +333,13 @@
     justify-content: center;
     font-size: 40px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   .owner-number{
     display: flex;
     justify-content: center;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
 
   textarea{
@@ -346,8 +347,8 @@
   }
 
   .form-button{
-    height: 40px;
-    width: 40px;
+    height: 50%;
+    width: auto;
     border-radius: 20px;
     background-color: #1DA1F2;
     color: white;
@@ -355,40 +356,33 @@
   }
 
   .form-section{
-    height: 100%;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
   .form-labels{
-    box-shadow: 0 0 20px 0 #999;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-right: 25em;
-    margin-left: 25em;
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    text-align: center;
+
   }
 
   
   .form-labels p{
-    font-size: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1.5em;
+
   }
 
   .input-field{
-    border-radius: 7px;
-    width: 200px;
-    height: 30px;
+    width: 30%;
+    height: 2rem;
+    padding-bottom: 2rem;
   }
 
   .input-field-message{
-    border-radius: 7px;
-    width: 200px;
-    height: 150px;
+    width: 30%;
+    height: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   /* End of Form Section */
