@@ -216,23 +216,30 @@
 
   .information-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+  }
+
+  .information-container h1{
+    font-size: 2em;
+  }
+
+  .information-container p{
+    font-size: 1.5em;
   }
 
   .information-left{
-    width: 20%;
     float: left;
+    width: 33%;
   }
 
   .information-middle{
     float: left;
-    width: 20%;
+    width: 33%;
   }
 
   .information-right{
     float: right;
-    width: 20%;
+    width: 33%;
   }
  
 
@@ -619,6 +626,15 @@
 
   .text-section-2{
     max-width: 100%;
+  }
+
+  .information-left{
+    width: 100%;
+  }
+
+  .information-container{
+    flex-direction: column;
+    align-items: center;
   }
 
   
