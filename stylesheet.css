@@ -206,10 +206,34 @@
     background-color: red;
   }
 
-
-  
   /* End of Card Section */
 
+
+  .information{
+    max-width: 100%;
+    min-height: 50vh;
+  }
+
+  .information-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .information-left{
+    width: 20%;
+    float: left;
+  }
+
+  .information-middle{
+    float: left;
+    width: 20%;
+  }
+
+  .information-right{
+    float: right;
+    width: 20%;
+  }
  
 
    /* End of Section Three */
@@ -284,7 +308,7 @@
     line-height: 1.5;
   }
 
-  /* bardledoo */
+  /* 4 Photo Section */
 
   .fishing-2{
     max-width: 100%;
@@ -326,7 +350,7 @@
     margin-bottom: 15px;
   }
 
-  /* Media Queries */
+  /* Form  */
 
     .contact-us{
     display: flex;
@@ -349,8 +373,9 @@
   .form-button{
     height: 50%;
     width: auto;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #1DA1F2;
+    padding: 0.3em;
     color: white;
     border: none;
   }
@@ -362,9 +387,8 @@
   .form-labels{
     width: 100%;
     height: auto;
-    background: #f1f1f1;
     text-align: center;
-
+    box-shadow: #1DA1F2;
   }
 
   
@@ -375,7 +399,7 @@
   .input-field{
     width: 30%;
     height: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .input-field-message{
@@ -383,6 +407,7 @@
     height: 2rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 1rem;
   }
 
   /* End of Form Section */
