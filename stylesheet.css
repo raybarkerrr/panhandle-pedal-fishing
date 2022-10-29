@@ -212,6 +212,7 @@
   .information{
     max-width: 100%;
     min-height: 50vh;
+    font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
   }
 
   .information-container{
@@ -241,6 +242,11 @@
     float: right;
     width: 33%;
   }
+
+  .information-right li{
+    font-size: 20px;
+  }
+
  
 
    /* End of Section Three */
@@ -632,11 +638,32 @@
     width: 100%;
   }
 
+  .information-container p{
+    font-size: 1.2em;
+  }
+
+  .information-container ul{
+    font-size: 1.2em;
+  }
+
+
+
   .information-container{
     flex-direction: column;
     align-items: center;
   }
 
-  
+  .information-left{
+    width: auto;
+  }
+
+  .information-middle{
+    width: auto;
+  }
+
+  .information-right{
+    width: auto;
+  }
+
 
 }
