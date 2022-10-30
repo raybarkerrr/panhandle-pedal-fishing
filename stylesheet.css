@@ -196,16 +196,6 @@
     font-size: 1.5em;
   }
 
-  .line{
-    width: 70%;
-    height: 5px;
-    margin-left: 3em;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: red;
-  }
-
   /* End of Card Section */
 
 
@@ -277,20 +267,12 @@
 
 
 
-  /* Poop */
+  /* Fishing Section 1*/
 
   .fishing{
     max-width: 100%;
     min-height: 75vh;
     background-color: #ddd;
-  }
-
-  .line{
-    max-width: 50%;
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: red;
   }
 
   .container{
@@ -320,16 +302,25 @@
   .content-section .content p{
     margin-top: 10px;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
   }
 
-  /* 4 Photo Section */
+  /* Fishing Section 2 */
 
   .fishing-2{
     max-width: 100%;
     min-height: 55vh;
     background-color: #ddd;
+  }
+
+    .line{
+    width: 70%;
+    height: 5px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: red;
   }
 
   .container-2{
@@ -360,7 +351,7 @@
   }
 
   .text-section-2 p{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
     line-height: 1.5;
     margin-top: 10px;
@@ -388,8 +379,8 @@
   }
 
   .form-button{
-    height: 50%;
-    width: auto;
+    height: auto;
+    width: 3.3%;
     border-radius: 50px;
     background-color: #1DA1F2;
     padding: 0.3em;
@@ -408,23 +399,17 @@
     box-shadow: #1DA1F2;
   }
 
-  
-  .form-labels p{
-
-  }
-
   .input-field{
     width: 30%;
     height: 2rem;
     margin-bottom: 1rem;
+    border-radius: 7px;
+    border-width: 1px;
   }
 
   .input-field-message{
     width: 30%;
-    height: 2rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-top: 1rem;
+    height: 7rem;
   }
 
   /* End of Form Section */
@@ -492,7 +477,7 @@
 
     .about-container p{
       margin-top: 1em;
-      font-size: 1rem;
+      font-size: 1.4rem;
       margin-left: 2px;
     }
 
@@ -557,11 +542,10 @@
     }
 
     .line{
-      width: 70%;
+      width: 80%;
       height: 5px;
-      margin-right: 20em;
+      margin-left: 2em;
       border-radius: 50px;
-      margin-top: 50px;
       background-color: red;
     }
 
@@ -580,6 +564,11 @@
       width: 100%;
       height: auto;
     }
+
+    /* Fishing 2 */
+
+  
+
 
   /* Last Section */
   
@@ -648,6 +637,10 @@
 
   .information-container ul{
     font-size: 1.2em;
+  }
+
+  .form-button{
+    width: 12%;
   }
 
   /* Contact Form */
