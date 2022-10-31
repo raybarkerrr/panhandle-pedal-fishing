@@ -315,7 +315,7 @@
   }
 
     .line{
-    width: 70%;
+    width: 45%;
     height: 5px;
     border-radius: 50px;
     margin-top: 20px;
@@ -405,12 +405,39 @@
     margin-bottom: 1rem;
     border-radius: 7px;
     border-width: 1px;
+    padding: 3px;
   }
 
   .input-field-message{
     width: 30%;
     height: 7rem;
+    border-radius: 7px;
+    border-width: 1px;
+    padding: 3px;
   }
+
+  /* Footer Section */
+
+  .foot{
+    display: flex;
+    margin-top: 50px;
+    height: 100%;
+    background-color: #142d4c;
+    color: white;
+    font-size: 14px;
+  }
+
+  .fut{
+    float: left;
+    width: 100%;
+    margin: 1em;
+  }
+
+  .fut-two{
+    float: right;
+    margin: 1em;
+  }
+
 
   /* End of Form Section */
   
