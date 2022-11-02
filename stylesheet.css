@@ -147,6 +147,7 @@
     text-align: center;
     margin-top: 4em;
     margin-bottom: 2em;
+    margin-left: 2em;
   }
 
   .information-container h1{
@@ -616,4 +617,14 @@
   }
 
 
+}
+
+@media (min-width: 1300px){
+  .image-section img{
+    width: 70%;
+  }
+
+  .information-container{
+    margin-left: 2em;
+  }
 }

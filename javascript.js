@@ -6,3 +6,8 @@ toggleButton.addEventListener("click", () => {
     
 })
 
+const setActive = document.querySelector(".mode")
+
+setActive.addEventListener("click", () => {
+    
+})
