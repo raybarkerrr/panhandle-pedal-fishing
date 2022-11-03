@@ -144,7 +144,6 @@
     text-align: center;
     margin-top: 4em;
     margin-bottom: 2em;
-    margin-left: 2em;
   }
 
   .information-container h1{
@@ -301,6 +300,7 @@
     font-size: 25px;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
     padding-bottom: 20px;
+    padding-top: 20px;
   }
 
   .owner-number{
@@ -618,3 +618,12 @@
   }
 }
 
+@media (min-width:1920px){
+  .information-container{
+    margin-left: 2em;
+  }
+
+  .fishing{
+    min-height: 60vh;
+  }
+}
