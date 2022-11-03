@@ -408,6 +408,10 @@
     }
 
     /* End of Navbar Section */
+
+    .hero-image-container{
+      background-attachment: scroll;
+    }
     
     .image-container {
         font-size: 10px;
