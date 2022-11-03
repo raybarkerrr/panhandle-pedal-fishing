@@ -76,9 +76,7 @@
     background-image: url(Photos/Kayak\ Image\ 1.jpg);
     height: auto;
     width: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     background-position: center;
     background-attachment: fixed;
   }
