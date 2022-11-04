@@ -6,8 +6,8 @@ toggleButton.addEventListener("click", () => {
     
 })
 
-const setActive = document.querySelector(".mode")
+const btn = document.querySelector(".btn-toggle");
 
-setActive.addEventListener("click", () => {
-    
-})
+btn.addEventListener("click", function () {
+  document.body.classList.toggle("dark-theme");
+});

@@ -11,6 +11,8 @@
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: #222;
+    background: #fff;
   }
   
   .navbar{
@@ -68,6 +70,25 @@
     width: 100%;
     background-color: black;
     border-radius: 10px;
+  }
+
+  .toggle-mode{
+    width: 1.8em;
+    margin-left: 15em;
+  }
+
+  /* 
+
+  body.dark-theme {
+    color: #eee;
+    background: #121212;
+  }
+  
+  a {
+    color: #eee;
+  }
+  body.dark-theme a {
+    color: #eee;
   }
   
   /* End of NavBar */
