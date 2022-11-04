@@ -19,11 +19,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: white;
     position: relative;
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
     font-weight: bold;
-    
   }
   
   .logo img{
@@ -125,7 +123,6 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 50px;
-    background-color: white;
   }
 
   .about-container{
