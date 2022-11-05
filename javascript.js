@@ -10,8 +10,7 @@ const btn = document.querySelector(".btn-toggle");
 
 btn.addEventListener("click", function () {
   document.body.classList.toggle("dark-theme");
+  document.getElementById("aboutus").style.backgroundColor = "#222";
+  document.getElementById("fishing2").style.backgroundColor = "#222";
 });
 
-function changeImage () {
-
-}
