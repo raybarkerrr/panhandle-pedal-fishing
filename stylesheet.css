@@ -11,8 +11,12 @@
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    color: #222;
-    background: #fff;
+    color: #eee;
+    background: #121212;
+  }
+
+  a {
+    color: #eee;
   }
   
   .navbar{
@@ -49,7 +53,6 @@
     text-decoration: none;
     display: block;
     padding: 1rem;
-    color: black;
   }
   
   .toggle-button{
@@ -78,15 +81,12 @@
   /* Dark Mode */
 
   body.dark-theme {
-    color: #eee;
-    background: #121212;
+    color: #222;
+    background: #fff;
   }
   
-  a {
-    color: #eee;
-  }
   body.dark-theme a {
-    color: #eee;
+    color: #222;
   }
   
   /* End of NavBar */
