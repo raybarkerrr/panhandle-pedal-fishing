@@ -78,6 +78,10 @@
     margin-left: 15em;
   }
 
+  .toggle-mode:hover {
+    cursor: pointer;
+}
+
   /* Dark Mode */
 
   body.dark-theme {

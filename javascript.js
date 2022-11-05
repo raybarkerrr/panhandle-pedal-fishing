@@ -13,5 +13,6 @@ btn.addEventListener("click", function () {
   document.getElementById("aboutus").style.backgroundColor = "#222";
   document.getElementById("fishing2").style.backgroundColor = "#222";
   document.getElementById("ourphotos").style.backgroundColor = "#222";
+  document.getElementById("foot").style.backgroundColor = "black"
 });
 
