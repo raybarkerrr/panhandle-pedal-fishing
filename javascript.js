@@ -18,11 +18,15 @@ btn.addEventListener("click", function () {
 
   
     if (img.src.match("Photos/moon-regular.svg")) {
-        img.src = "Photos/sun-3-28.png";
+        img.src = "Photos/icons8-sun-30.png";
     }
         else {
             img.src = "Photos/moon-regular.svg";
         }
+
+        document.body.classList.toggle("light-theme");
+        document.getElementById("aboutus").style.backgroundColor = "#fff";
+        document.getElementById("fishing2").style.backgroundColor = "#fff";
+        document.getElementById("ourphotos").style.backgroundColor = "#fff";
+        document.getElementById("foot").style.backgroundColor = "black"
 });
-
-
