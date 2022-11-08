@@ -5,20 +5,20 @@
     list-style-type: none;
     scroll-behavior: smooth;
   }
-  
+
   html,
   body {
     max-width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
-    color: #eee;
-    background: #121212;
+    color: #222;
+    background: #fff;
   }
 
   a {
-    color: #eee;
+    color: #222;
   }
-  
+
   .navbar{
     display: flex;
     justify-content: space-between;
@@ -27,14 +27,14 @@
     font-family: 'Open Sans', sans-serif, "Source Sans Pro", Arial, "Poppins";
     font-weight: bold;
   }
-  
+
   .logo img{
     max-width: auto;
     max-height: 7em;
     margin: 0%;
     padding: 1rem;
   }
-  
+
   .navbar-links ul {
     display: flex;
     justify-content: space-around;
@@ -44,17 +44,17 @@
     margin: 1em;
     font-size: large;
   }
-  
+
   .navbar-links li:hover {
     background-color: #faf5e4;
   }
-  
+
   .navbar-links ul a {
     text-decoration: none;
     display: block;
     padding: 1rem;
   }
-  
+
   .toggle-button{
     position: absolute;
     top: .75rem;
@@ -65,7 +65,7 @@
     width: 30px;
     height: 21px;
   }
-  
+
   .toggle-button .bar {
     height: 3px;
     width: 100%;
@@ -82,20 +82,33 @@
     cursor: pointer;
 }
 
-  /* Dark Mode */
+  /* Dark Mode
+      NOTE: Here is where you want to put your styles for
+      dark mode.
+   */
 
   body.dark-theme {
-    color: #222;
-    background: #fff;
+    color: #eee;
+    background: #121212;
   }
-  
+
   body.dark-theme a {
-    color: #222;
+    color: #eee;
   }
-  
-  
+
+  section.fishing,section.fishing-2 {
+    background: #eee;
+  }
+
+  body.dark-theme > section.fishing, body.dark-theme > section.fishing-2, body.dark-theme > section.our-photos-section{
+    background: #3A3B3C;
+  }
+
+
+
+
   /* End of NavBar */
-  
+
   .hero-image-container{
     background-image: url(Photos/Kayak\ Image\ 1.jpg);
     height: auto;
@@ -105,7 +118,7 @@
     background-position: center;
     background-attachment: fixed;
   }
-  
+
   .inner-container h1{
     display: flex;
     text-align: center;
@@ -114,7 +127,6 @@
     height: 80vh;
     font-weight: bold;
     font-size: 5em;
-    color: white;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Work Sans', sans-serif;
@@ -155,7 +167,7 @@
   }
 
   /* End of About Us Section */
-  
+
   .information{
     max-width: 100%;
     min-height: 50vh;
@@ -197,7 +209,7 @@
     font-size: 20px;
   }
 
- 
+
 
    /* End of Section Three */
 
@@ -255,7 +267,7 @@
     text-transform: uppercase;
     font-size: 20px;
   }
-  
+
   .content-section .content p{
     margin-top: 10px;
     font-family: sans-serif;
@@ -278,6 +290,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: red;
+    border-color: red;
   }
 
   .container-2{
@@ -285,7 +298,7 @@
     display: block;
     margin:auto;
   }
-  
+
   .image-section-2{
     max-width: 40%;
     float: left;
@@ -397,36 +410,36 @@
 
 
   /* End of Form Section */
-  
+
   @media (max-width: 768px) { /* Media Query for Mobile Devices */
     .toggle-button {
         display: flex;
-        right: 16px; 
+        right: 16px;
     }
-  
+
     .navbar-links {
-       display: none; 
+       display: none;
        width: 70%;
     }
-  
+
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
-  
+
     .navbar-links ul {
         flex-direction: column;
         width: 100%;
     }
-  
+
     .navbar-links li{
         text-align: center;
     }
-  
+
     .navbar-links li a {
         padding: .5em;
     }
-  
+
     .navbar-links.active {
         display: flex;
     }
@@ -436,15 +449,15 @@
     .hero-image-container{
       background-attachment: scroll;
     }
-    
+
     .image-container {
         font-size: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
-  
+
     .image-title{
         font-size: 1em;
     }
@@ -472,8 +485,8 @@
     .about-us-photo img{
       max-width: 100%;
     }
-  
-    
+
+
 
     /* End of About Container */
 
@@ -483,7 +496,7 @@
         justify-content: center;
         align-items: center;
     }
-    
+
     .sect-three-container{
         margin-right: 4em;
     }
@@ -521,8 +534,8 @@
       height: auto;
       margin: 35px;
     }
-  
-  
+
+
     .row img {
       width: 100%;
       height: auto;
@@ -530,11 +543,11 @@
 
     /* Fishing 2 */
 
-  
+
 
 
   /* Last Section */
-  
+
   .container{
     width: 80%;
     display: block;
